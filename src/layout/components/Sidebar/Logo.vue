@@ -35,7 +35,8 @@ export default {
   },
   data() {
     return {
-      title: 'lty',
+      title: '金手指后台管理系统',
+      // title: 'lty',
       logo: logoImg
     }
   }

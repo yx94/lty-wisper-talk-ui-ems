@@ -1,7 +1,8 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">领头羊后台管理系统</h3>
+      <!-- <h3 class="title">领头羊后台管理系统</h3> -->
+      <h3 class="title">金手指后台管理系统</h3>
       <el-form-item prop="username">
         <el-input
           v-model="loginForm.username"
@@ -53,7 +54,8 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2023-2025 领头羊人力资源有限公司 All Rights Reserved.</span>
+      <!-- <span>Copyright © 2023-2025 领头羊人力资源有限公司 All Rights Reserved.</span> -->
+      <span>Copyright © 2023-2025 抚州金手指人力资源有限公司 All Rights Reserved.</span>
     </div>
   </div>
 </template>
